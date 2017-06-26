@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudio\CarFuelCalculator\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="D:\AndroidStudio\CarFuelCalculator\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_1adff9f0b00af909a3fda8aab18e18aca8b768e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudio\CarFuelCalculator\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c663bde05b7d3c4c3854b9b26936a80d1b9f5417">
+        <dex dex="D:\AndroidStudio\CarFuelCalculator\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_41080c3eb406b172cb612e7e750cc2d93d0c868e\classes.dex" />
+    </item>
+
+</items>

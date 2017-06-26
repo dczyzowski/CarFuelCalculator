@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.agh.carfuelcalculator.AddCarActivity"
+    tools:showIn="@layout/activity_add_car">
+
+    <LinearLayout
+        android:id="@+id/email_login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:id="@+id/new_car_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nazwa samochodu"
+                android:inputType="textCapWords"
+                android:maxLines="1" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:id="@+id/new_car_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Rocznik pojazdu"
+                android:inputType="phone"
+                android:maxLines="1" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/new_car_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Informacje"
+                android:lines="1"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
